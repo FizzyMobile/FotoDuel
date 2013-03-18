@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background" >
+
+    <ImageView
+        android:id="@+id/rankitem_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/rankitem_imageview_margin"
+        android:layout_marginRight="@dimen/rankitem_imageview_margin"
+        android:contentDescription="@string/image_rank"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/rankitem_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/rankitem_points"
+        android:textColor="@color/text_normal"
+        android:layout_marginLeft="@dimen/rankitem_label_margin"
+        android:layout_marginRight="@dimen/rankitem_label_margin" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/rankitem_points"
+        android:layout_toRightOf="@id/rankitem_imageview" >
+
+        <TableRow android:gravity="left" >
+
+            <TextView
+                android:id="@+id/rankitem_title_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/rankitem_label_margin"
+                android:text="@string/rankitem_title_label"
+                android:textColor="@color/text_label" />
+
+            <TextView
+                android:id="@+id/rankitem_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rankitem_title"
+                android:textColor="@color/text_normal" />
+        </TableRow>
+
+        <TableRow android:gravity="left" >
+
+            <TextView
+                android:id="@+id/rankitem_author_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/rankitem_label_margin"
+                android:text="@string/rankitem_author_label"
+                android:textColor="@color/text_label" />
+
+            <TextView
+                android:id="@+id/rankitem_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rankitem_author"
+                android:textColor="@color/text_normal" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

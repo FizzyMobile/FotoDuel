@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FotoDuel</string>
+    <string name="activity_tank_title">Ranking</string>
+    <string name="action_network">Network</string>
+    <string name="action_about">About</string>
+    <string name="action_ranking">Ranking</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_delete_db">Delete ranking</string>
+    <string name="button_draw">DRAW</string>
+    <string name="image_duel_top">Top image</string>
+    <string name="image_duel_bottom">Bottom image</string>
+    <string name="image_duel_left">Left image</string>
+    <string name="image_duel_right">Right image</string>
+    <string name="image_rank">Rank item image</string>
+    <string name="pref_isFirstRun">isFirstRun</string>
+    <string name="network_info_wifi_conn">Using WiFi connection</string>
+    <string name="network_info_wifi_aval">\nWiFi netwrok is available</string>
+    <string name="network_info_mobile_conn">Using mobile connection</string>
+    <string name="network_info_no_conn">No connection to any network </string>
+    <string name="dialog_about_message">Vote for the photo that you like more. Have fun!\n\nApp by:\nMaksym Plencler</string>
+    <string name="dialog_about_button">OK</string>
+    <string name="dialog_delete_message">Are you sure you want to delete the ranking? After deletion restart application.</string>
+    <string name="dialog_delete_title">Delete ranking?</string>
+    <string name="dialog_delete_button_cancel">Cancel</string>
+    <string name="dialog_delete_button_yes">Yes</string>
+    <string name="rankitem_title">title</string>
+    <string name="rankitem_title_label">Title:</string>
+    <string name="rankitem_author">username</string>
+    <string name="rankitem_author_label">Author:</string>
+    <string name="rankitem_points">NULL</string>
+    
+    <integer name="vibration_time">50</integer>
+
+</resources>

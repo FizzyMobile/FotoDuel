@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text colors -->
+    <color name="text_normal">#FFFFFF</color>
+    <color name="text_keyword">#0063DC</color>
+    <color name="text_label">#999999</color>
+
+    <!-- Android standard colors from: http://developer.android.com/design/style/color.html -->
+    <color name="red">#FF4444</color>
+    <color name="yellow">#FFBB33</color>
+    <color name="green">#99CC00</color>
+    <color name="purple">#AA66CC</color>
+    <color name="blue">#33B5E5</color>
+
+    <!-- App UI -->
+    <color name="button_text">#BBBBBB</color>
+    <color name="background">#000000</color>
+    <color name="button_inside_color">#DD111111</color>
+    <color name="button_stroke_color">#DD333333</color>
+
+</resources>

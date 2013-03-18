@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_ranking"
+        android:icon="@drawable/ic_menu_ranking"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_ranking"/>
+    
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_refresh"/>
+    
+    <item
+        android:id="@+id/action_network"
+        android:icon="@drawable/ic_menu_network"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_network"/>
+    
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+
+</menu>
