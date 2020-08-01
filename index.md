@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+---
+layout: blocks
+title: Homepage
+date: 2017-11-22T23:00:00.000+00:00
+page_sections:
+- template: navigation-header-w-button
+  block: header-2
+  logo: "/uploads/2018/06/21/forestry-full.svg"
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link: "#features"
+    link_text: Features
+  - link: "#pricing"
+    link_text: Pricing
+  - link: "#team"
+    link_text: Team
+  cta:
+    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
+    button_text: Download
+- template: hero-banner-w-image
+  block: hero-2
+  headline: uBuild <br><strong>design blocks</strong>
+  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
+    content manager.
+  cta:
+    enabled: true
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'See on GitHub '
+  image:
+    image: "/uploads/2018/06/21/product-shot-1.png"
+    alt_text: Product Shot
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
+    class="light">the Blocks to create sites quickly</span>
+  content: Quickly assemble and create custom sites with 16 design blocks for seven
+    different sections.
+  media:
+    image: "/uploads/2018/06/21/blocks-split.png"
+    alt_text: uBuild Blocks Mock-Up
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
+    edits throughout your new site</span>
+  content: Each block comes with custom Front Matter that can easily be edited in
+    Forestry's UI.
+  media:
+    image: "/uploads/2018/06/21/edit.gif"
+    alt_text: Customize Blocks
+- template: 1-column-text
+  block: one-column-1
+  headline: 16 Fully Responsive Design Blocks
+  content: "The Design Blocks can be used without Forestry but to harness the power
+    of Blocks we recommend using Forestry. Once the site is imported you can immediately
+    create new sites and make them fully customizable. \U0001F447"
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2018/06/21/theme.png"
+  caption: All Available Blocks
+- template: detail-content
+  block: text-1
+  headline: Steps to Build a Site!
+  content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
+    tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
+    the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
+    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks#even-quicker-start">our
+    magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
+    Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
+    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
+    article</a> and create your own Blocks.</p></li></ol>
+- template: simple-footer
+  block: footer-1
+  content: Hello world! ❤︎
 
-You can use the [editor on GitHub](https://github.com/FizzyMobile/FotoDuel/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FizzyMobile/FotoDuel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+---
+foo bar
