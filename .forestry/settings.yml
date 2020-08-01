@@ -9,16 +9,14 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:/:month:/:day:/:filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
